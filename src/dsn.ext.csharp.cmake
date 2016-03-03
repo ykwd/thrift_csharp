@@ -1,3 +1,5 @@
+set(PROJ_NAME Thrift)
+
 if(MSVC)
     set(MY_CSC "msbuild.exe")
 else()
