@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-set(PROJ_NAME Thrift)
+# Project
+project(Thrift CSharp)
 
 include(dsn.ext.csharp.cmake)
