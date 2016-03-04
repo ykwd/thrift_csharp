@@ -8,6 +8,6 @@ set(PROJ_NAME Thrift)
 configure_file("${CMAKE_CURRENT_SOURCE_DIR}/${PROJ_NAME}.csproj.template" "${CMAKE_CURRENT_SOURCE_DIR}/${PROJ_NAME}.csproj")
 
 csharp_add_library(
-    SimpleITKCSharpManaged
+    Thrift
     "${CMAKE_CURRENT_SOURCE_DIR}/*.cs"
   )
